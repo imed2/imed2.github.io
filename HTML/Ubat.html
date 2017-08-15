@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Home.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>i-Med | Ubat-ubatan</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #333;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#FFF; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #FFF;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 90%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	color: #FFF;
+	background-color: #333;
+	text-align: center;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.1em;
+	font-size: x-large;
+	line-height: 0.5em;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	color: #CCC;
+	background-color: #333;
+	text-align: center;
+	font-size: smaller;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.container .content h1 {
+	color: #F06;
+}
+-->
+</style>
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+  	<img src="../Images/Others/iMed.png" width="250" height="125" />
+    <p><strong>Farmasi Hospital Kuala Lipis</strong>
+  </p>
+  </div>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="../index.html">Laman utama</a></li>
+    <li><a href="Hubungi.html">Mengenai kami</a></li>
+    <li><a href="Ubat.html">Ubat-ubatan</a></li>
+    <li><a class="MenuBarItemSubmenu" href="Kaunseling.html">Kaunseling</a>
+      <ul>
+        <li><a class="MenuBarItemSubmenu" href="#">Ubat mata</a>
+          <ul>
+            <li><a href="Kaunseling/Titismata.html">Ubat titis mata</a></li>
+            <li><a href="Kaunseling/Salapmata.html">Ubat salap mata</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">Ubat telinga</a>
+          <ul>
+            <li><a href="Kaunseling/Titistelinga.html">Ubat titis telinga</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">Ubat hidung</a>
+          <ul>
+            <li><a href="Kaunseling/Titishidung.html">Ubat titis hidung</a></li>
+            <li><a href="Kaunseling/Semburanhidung.html">Ubat semburan hidung</a></li>
+          </ul>
+        </li>
+        <li><a href="Kaunseling/Pesari.html">Pesari</a></li>
+        <li><a href="Kaunseling/Supositori.html">Supositori</a></li>
+        <li><a href="#" class="MenuBarItemSubmenu">Ubat sedut</a>
+          <ul>
+            <li><a href="Kaunseling/MDI.html">MDI</a></li>
+            <li><a href="Kaunseling/MDIaerochamber.html">MDI dengan Aerochamber</a></li>
+            <li><a href="Kaunseling/Easyhaler.html">Easyhaler</a></li>
+            <li><a href="Kaunseling/Accuhaler.html">Accuhaler</a></li>
+            <li><a href="Kaunseling/Turbohaler.html">Turbohaler</a></li>
+            <li><a href="Kaunseling/Handihaler.html">Handihaler</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">Insulin</a>
+          <ul>
+            <li><a href="Kaunseling/InsulinNovo.html">Novopen</a></li>
+            <li><a href="Kaunseling/InsulinAll.html">Allstar pen</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">Ubat cair darah</a>
+          <ul>
+            <li><a href="Kaunseling/Heparin.html">Heparin</a></li>
+            <li><a href="Kaunseling/Warfarin.html">Warfarin</a></li>
+          </ul>
+        </li>
+        <li><a href="Kaunseling/GTN.html">Ubat GTN</a></li>
+      </ul>
+    </li>
+    <li><a href="Penyakit.html" class="MenuBarItemSubmenu">Penyakit</a>
+      <ul>
+        <li><a href="#" class="MenuBarItemSubmenu">Kencing Manis</a>
+          <ul>
+            <li><a href="Kaunseling/KaunselingDM.html">Keterangan ringkas</a></li>
+            <li><a href="Kaunseling/KaunselingDM1.html">Sesi Pertama</a></li>
+            <li><a href="Kaunseling/KaunselingDM2.html">Sesi Kedua</a></li>
+            <li><a href="Kaunseling/KaunselingDM3.html">Sesi Ketiga</a></li>
+            <li><a href="Kaunseling/KaunselingDM4.html">Sesi Keempat</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">Buah Pinggang</a>
+          <ul>
+            <li><a href="Kaunseling/KaunselingCKD1.html">Sesi Pertama</a></li>
+            <li><a href="Kaunseling/KaunselingCKD2.html">Sesi Kedua</a></li>
+          </ul>
+        </li>
+        <li><a href="Kaunseling/KaunselingHIV.html">HIV/AIDS</a></li>
+      </ul>
+    </li>
+    <li><a href="Links.html">Pautan luar</a></li>
+    </ul>
+<!-- InstanceBeginEditable name="EditRegion1" -->
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=650,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+<div class="content">
+    <h2><center>Ubat-ubatan</center></h2>
+    <hr class="single-divider">
+    <blockquote><center><form name="form" id="form">
+      <p>Sila pilih ubat mengikut <a href="JavaScript:newPopup('Generik.html');"><font color="#000099">nama generik</font></a> ubat:
+        <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,1)">
+          <option value="../HTML/Ubat/Blank"></option>
+          <option value="../HTML/Ubat/Acarbose.html">Acarbose 50mg</option>
+          <option value="../HTML/Ubat/Acetazolamide.html">Acetazolamide 250mg</option>
+          <option value="../HTML/Ubat/Aspirin.html">Acetylsalicyclic acid 300mg</option>
+          <option value="../HTML/Ubat/Cardiprin.html">Acetylsalicyclic acid 100mg & Glycine 45mg</option>
+          <option value="../HTML/Ubat/Acyclovir.html">Acyclovir 200mg</option>
+                    <option value="../HTML/Ubat/Agomelatine.html">Agomelatine 25mg</option>
+          <option value="../HTML/Ubat/Albendazole.html">Albendazole 200mg</option>
+          <option value="../HTML/Ubat/Alendronate.html">Alendronate 70mg</option>
+          <option value="../HTML/Ubat/Alendronateplus.html">Alendronate 70mg & Cholecalciferol 5600IU</option>
+          <option value="../HTML/Ubat/Alfacalcidol025.html">Alfacalcidol 0.25mcg</option>
+          <option value="../HTML/Ubat/Alfacalcidol1.html">Alfacalcidol 1mcg</option>
+          <option value="../HTML/Ubat/Alfuzosin.html">Alfuzosin 10mg</option>
+          <option value="../HTML/Ubat/Allopurinol.html">Allopurinol 300mg</option>
+        <option value="../HTML/Ubat/Alprazolam.html">Alprazolam 0.5mg</option>
+          <option value="../HTML/Ubat/Moduretic.html">Amiloride 5mg & Hydrochlorothiazide 50mg</option>
+          <option value="../HTML/Ubat/Amiodarone.html">Amiodarone 200mg</option>
+          <option value="../HTML/Ubat/Amisulpride100.html">Amisulpride 100mg</option>
+          <option value="../HTML/Ubat/Amisulpride400.html">Amisulpride 400mg</option>
+          <option value="../HTML/Ubat/Amitriptyline10.html">Amitriptyline 10mg</option>
+          <option value="../HTML/Ubat/Amitriptyline25.html">Amitriptyline 25mg</option>
+          <option value="../HTML/Ubat/Amlodipine5.html">Amlodipine 5mg</option>
+          <option value="../HTML/Ubat/Amlodipine10.html">Amlodipine 10mg</option>
+          <option value="../HTML/Ubat/Amoxicillin.html">Amoxicillin 250mg</option>
+          <option value="../HTML/Ubat/Augmentin.html">Amoxicillin & Clavulanate 625mg</option>
+          <option value="../HTML/Ubat/Unasyn.html">Ampicillin & Sulbactam 375mg</option>
+           <option value="../HTML/Ubat/Aripiprazole10.html">Aripiprazole 10mg</option>
+           <option value="../HTML/Ubat/Aripiprazole15.html">Aripiprazole 15mg</option>
+          <option value="../HTML/Ubat/Riamet.html">Artemether 20mg & Lumefantrine 120mg</option>
+          <option value="../HTML/Ubat/Ascorbic.html">Ascorbic acid 100mg</option>
+          <option value="../HTML/Ubat/Atenolol.html">Atenolol 100mg</option>
+          <option value="../HTML/Ubat/Atorvastatin10.html">Atorvastatin 10mg</option>
+          <option value="../HTML/Ubat/Atorvastatin20.html">Atorvastatin 20mg</option>
+          <option value="../HTML/Ubat/Lomotil.html">Atropine 0.025mg & Diphenoxylate 2.5mg</option>
+          <option value="../HTML/Ubat/Azathioprine.html">Azathioprine 50mg</option>
+          <option value="../HTML/Ubat/Azithromycin.html">Azithromycin 250mg</option>
+          <option value="../HTML/Ubat/Bacampicillin.html">Bacampicillin 400mg</option>
+          <option value="../HTML/Ubat/Baclofen.html">Baclofen 10mg</option>
+          <option value="../HTML/Ubat/Madopar.html">Benserazide 50mg & Levodopa 200mg</option>
+          <option value="../HTML/Ubat/Benzhexol.html">Benzhexol 2mg</option>
+          <option value="../HTML/Ubat/Betahistine.html">Betahistine 24mg</option>
+          <option value="../HTML/Ubat/Bisacodyl.html">Bisacodyl 5mg</option>
+          <option value="../HTML/Ubat/Bisoprolol2,5.html">Bisoprolol 2.5mg</option>
+          <option value="../HTML/Ubat/Bisoprolol5.html">Bisoprolol 5mg</option>
+          <option value="../HTML/Ubat/Bromhexine.html">Bromhexine 8mg</option>
+          <option value="../HTML/Ubat/Bromocriptine.html">Bromocriptine 2.5mg</option>
+          <option value="../HTML/Ubat/Bumetanide.html">Bumetanide 1mg</option>
+          <option value="../HTML/Ubat/Calcitriol.html">Calcitriol 0.25mcg</option>
+          <option value="../HTML/Ubat/Calciumcarbonate.html">Calcium Carbonate 500mg</option>
+          <option value="../HTML/Ubat/Calciumlactate.html">Calcium Lactate 300mg</option>
+          <option value="../HTML/Ubat/Captopril.html">Captopril 25mg</option>
+          <option value="../HTML/Ubat/Carbamazepine.html">Carbamazepine 200mg</option>
+          <option value="../HTML/Ubat/Sinemet100.html">Carbidopa 25mg & Levodopa 100mg</option>
+          <option value="../HTML/Ubat/Sinemet250.html">Carbidopa 25mg & Levodopa 250mg</option>
+          <option value="../HTML/Ubat/Carbimazole.html">Carbimazole 5mg</option>
+          <option value="../HTML/Ubat/Carvedilol6,25.html">Carvedilol 6.25mg</option>
+          <option value="../HTML/Ubat/Carvedilol25.html">Carvedilol 25mg</option>
+          <option value="../HTML/Ubat/Cefuroxime.html">Cefuroxime 250mg</option>
+          <option value="../HTML/Ubat/Celecoxib.html">Celecoxib 200mg</option>
+          <option value="../HTML/Ubat/Cephalexin.html">Cephalexin 250mg</option>
+          <option value="../HTML/Ubat/Charcoal.html">Charcoal, Activated 250mg</option>
+          <option value="../HTML/Ubat/Chloroquine.html">Chloroquine 250mg</option>
+          <option value="../HTML/Ubat/Chlorpheniramine.html">Chlorpheniramine 4mg</option>
+          <option value="../HTML/Ubat/Chlorpromazine25.html">Chlorpromazine 25mg</option>
+          <option value="../HTML/Ubat/Chlorpromazine100.html">Chlorpromazine 100mg</option>
+          <option value="../HTML/Ubat/Alendronateplus.html">Cholecalciferol 5600IU & Alendronate 70mg</option>
+          <option value="../HTML/Ubat/Cinnarizine.html">Cinnarizine 25mg</option>
+          <option value="../HTML/Ubat/Ciprofloxacin.html">Ciprofloxacin 250mg</option>
+          <option value="../HTML/Ubat/Clarithromycin.html">Clarithromycin 250mg</option>
+          <option value="../HTML/Ubat/Augmentin.html">Clavulanate & Amoxicillin 625mg</option>
+          <option value="../HTML/Ubat/Clindamycin.html">Clindamycin 300mg</option>
+        <option value="../HTML/Ubat/Clobazam.html">Clobazam 10mg</option>
+          <option value="../HTML/Ubat/Clomiphene.html">Clomiphene 50mg</option>
+        <option value="../HTML/Ubat/Clonazepam.html">Clonazepam 2mg</option>
+          <option value="../HTML/Ubat/Clopidogrel.html">Clopidogrel 75mg</option>
+          <option value="../HTML/Ubat/Cloxacillin.html">Cloxacillin 250mg</option>
+          <option value="../HTML/Ubat/Clozapine25.html">Clozapine 25mg</option>
+          <option value="../HTML/Ubat/Clozapine100.html">Clozapine 100mg</option>
+          <option value="../HTML/Ubat/Colchicine.html">Colchicine 0.5mg</option>
+          <option value="../HTML/Ubat/Estrogen.html">Conjugated Estrogen 0.625mg</option>
+          <option value="../HTML/Ubat/Cyclophosphamide.html">Cyclophosphamide 50mg</option>
+          <option value="../HTML/Ubat/Danazol.html">Danazol 100mg</option>
+          <option value="../HTML/Ubat/Dapsone.html">Dapsone 100mg</option>
+          <option value="../HTML/Ubat/Deferasirox125.html">Desferasirox 125mg</option>
+          <option value="../HTML/Ubat/Deferasirox500.html">Desferasirox 500mg</option>
+          <option value="../HTML/Ubat/Deferiprone.html">Deferiprone 500mg</option>
+          <option value="../HTML/Ubat/Dexamethasone.html">Dexamethasone 0.5mg</option>
+        <option value="../HTML/Ubat/Diazepam.html">Diazepam 5mg</option>
+          <option value="../HTML/Ubat/Diclofenac.html">Diclofenac 50mg</option>
+          <option value="../HTML/Ubat/Digoxin0,0625.html">Digoxin 0.0625mg</option>
+          <option value="../HTML/Ubat/Digoxin0,25.html">Digoxin 0.25mg</option>
+          <option value="../HTML/Ubat/Diltiazem.html">Diltiazem 30mg</option>
+          <option value="../HTML/Ubat/Daflon.html">Diosmin 450mg & Hesperidin 50mg</option>
+          <option value="../HTML/Ubat/Lomotil.html">Diphenoxylate 2.5mg & Atropine 0.025mg</option>
+          <option value="../HTML/Ubat/Dipyridamole.html">Dipyridamole 75mg</option>
+          <option value="../HTML/Ubat/Doxazosin.html">Doxazosin 4mg</option>
+          <option value="../HTML/Ubat/Doxycycline.html">Doxycycline 100mg</option>
+          <option value="../HTML/Ubat/Duodart.html">Dutasteride 0.5mg & Tamsulosin 0.4mg</option>
+          <option value="../HTML/Ubat/Dydrogesterone.html">Dydrogesterone 10mg</option>
+          <option value="../HTML/Ubat/Estradiol1.html">Dydrogesterone 10mg & Estradiol 1mg</option>
+          <option value="../HTML/Ubat/Enalapril5.html">Enalapril 5mg</option>
+          <option value="../HTML/Ubat/Enalapril20.html">Enalapril 20mg</option>
+          <option value="../HTML/Ubat/Eperisone.html">Eperisone 50mg</option>
+          <option value="../HTML/Ubat/Erythromycin.html">Erythromycin 400mg</option>
+          <option value="../HTML/Ubat/Escitalopram.html">Escitalopram 10mg</option>
+          <option value="../HTML/Ubat/Esomeprazole.html">Esomeprazole 40mg</option>
+          <option value="../HTML/Ubat/Essential.html">Essential phospholipid</option>
+          <option value="../HTML/Ubat/Estradiol1.html">Estradiol 1mg & Dydrogesterone 10mg</option>
+          <option value="../HTML/Ubat/Estradiol2.html">Estradiol 2mg & Norgestrel 0.5mg</option>
+          <option value="../HTML/Ubat/Ethambutol.html">Ethambutol 400mg</option>
+          <option value="../HTML/Ubat/Akurit.html">Ethambutol 275mg, Rifampicin 150mg, Isoniazid 75mg & Pyrazinamide 400mg</option>
+          <option value="../HTML/Ubat/Ethinylestradiol.html">Ethinylestradiol 0.03mg & Levonorgestrel 0.15mg</option>
+          <option value="../HTML/Ubat/Etoricoxib.html">Etoricoxib 90mg</option>
+          <option value="../HTML/Ubat/Ezetimibe.html">Ezetimibe 10mg</option>
+          <option value="../HTML/Ubat/Felodipine5.html">Felodipine 5mg</option>
+          <option value="../HTML/Ubat/Felodipine10.html">Felodipine 10mg</option>
+        <option value="../HTML/Ubat/Fenofibrate.html">Fenofibrate 145mg</option>
+          <option value="../HTML/Ubat/Ferrousfumarate.html">Ferrous Fumarate 200mg</option>
+          <option value="../HTML/Ubat/Ferroussulfate.html">Ferrous Sulfate 525mg</option>
+          <option value="../HTML/Ubat/Finasteride.html">Finasteride 5mg</option>
+          <option value="../HTML/Ubat/Fluconazole50.html">Fluconazole 50mg</option>
+          <option value="../HTML/Ubat/Fluoxetine.html">Fluoxetine 20mg</option>
+          <option value="../HTML/Ubat/Fluvoxamine50.html">Fluvoxamine 50mg</option>
+          <option value="../HTML/Ubat/Fluvoxamine100.html">Fluvoxamine 100mg</option>
+          <option value="../HTML/Ubat/Folicacid.html">Folic acid 5mg</option>
+          <option value="../HTML/Ubat/Frusemide.html">Frusemide 40mg</option>
+          <option value="../HTML/Ubat/Fusidic.html">Fusidic acid 250mg</option>
+          <option value="../HTML/Ubat/Gabapentin.html">Gabapentin 300mg</option>
+          <option value="../HTML/Ubat/Gemfibrozil.html">Gemfibrozil 300mg</option>
+          <option value="../HTML/Ubat/Glibenclamide.html">Glibenclamide 5mg</option>
+          <option value="../HTML/Ubat/MetforminGliben.html">Glibenclamide 5mg & Metformin 500mg</option>
+          <option value="../HTML/Ubat/Gliclazide.html">Gliclazide 80mg</option>
+          <option value="../HTML/Ubat/GliclazideMR.html">Gliclazide MR 30mg</option>
+          <option value="../HTML/Ubat/GTN.html">Glyceryl trinitrate 0.5mg</option>
+          <option value="../HTML/Ubat/Cardiprin.html">Glycine 45mg & Acetylsalicyclic acid 100mg</option>
+          <option value="../HTML/Ubat/Griseofulvin.html">Griseofulvin 125mg</option>
+          <option value="../HTML/Ubat/Haloperidol1,5.html">Haloperidol 1.5mg</option>
+          <option value="../HTML/Ubat/Haloperidol5.html">Haloperidol 5mg</option>
+          <option value="../HTML/Ubat/Daflon.html">Hesperidin 50mg & Diosmin 450mg</option>
+          <option value="../HTML/Ubat/TelmisartanPlus.html">Hydrochlorothiazide 12.5mg & Telmisartan 80mg</option>
+          <option value="../HTML/Ubat/Hydrochlorothiazide25.html">Hydrochlorothiazide 25mg</option>
+          <option value="../HTML/Ubat/Hydrochlorothiazide50.html">Hydrochlorothiazide 50mg</option>
+          <option value="../HTML/Ubat/Moduretic.html">Hydrochlorothiazide 50mg & Amiloride 5mg</option>
+          <option value="../HTML/Ubat/Hydrocortisone.html">Hydrocortisone 10mg</option>
+          <option value="../HTML/Ubat/Hydroxychloroquine.html">Hydroxychloroquine 200mg</option>
+          <option value="../HTML/Ubat/Hydroxyurea.html">Hydroxyurea 500mg</option>
+          <option value="../HTML/Ubat/Hyoscine.html">Hyoscine 10mg</option>
+          <option value="../HTML/Ubat/Ibuprofen.html">Ibuprofen 200mg</option>
+          <option value="../HTML/Ubat/PerindoprilPlus.html">Indapamide 1.25mg & Perindopril 4mg</option>
+          <option value="../HTML/Ubat/Indomethacin.html">Indomethacin 25mg</option>
+          <option value="../HTML/Ubat/Insulin Pendek.html">Insulin Tindakan Jangka Pendek (Actrapid&reg;, Insuman Rapid&reg;)</option>
+          <option value="../HTML/Ubat/Insulin Sederhana.html">Insulin Tindakan Jangka Sederhana (Insulatard&reg;, Insuman Basal&reg;)</option>
+          <option value="../HTML/Ubat/Insulin Campuran.html">Insulin Campuran Tindakan Jangka Pendek dan Sederhana (Mixtard&reg;, Insuman Combo&reg;)</option>
+          <option value="../HTML/Ubat/Insulin Panjang.html">Insulin Tindakan Jangka Panjang (Glargine)</option>
+          <option value="../HTML/Ubat/Irbesartan.html">Irbesartan 150mg</option>
+          <option value="../HTML/Ubat/Isoniazid100.html">Isoniazid 100mg</option>
+          <option value="../HTML/Ubat/Isoniazid400.html">Isoniazid 400mg</option>
+          <option value="../HTML/Ubat/Akurit.html">Isoniazid 75mg, Rifampicin 150mg, Pyrazinamide 400mg & Ethambutol 275mg</option>
+          <option value="../HTML/Ubat/ISDN.html">Isosorbide dinitrate 10mg</option>
+          <option value="../HTML/Ubat/ISMN50.html">Isosorbide mononitrate SR 50mg</option>
+          <option value="../HTML/Ubat/ISMN60.html">Isosorbide mononitrate SR 60mg</option>
+          <option value="../HTML/Ubat/Itraconazole.html">Itraconazole 100mg</option>
+        <option value="../HTML/Ubat/Ivabradine.html">Ivabradine 5mg</option>
+          <option value="../HTML/Ubat/Labetalol.html">Labetalol 100mg</option>
+          <option value="../HTML/Ubat/Lamotrigine.html">Lamotrigine 50mg</option>
+          <option value="../HTML/Ubat/Levetiracetam500.html">Levetiracetam 500mg</option>
+          <option value="../HTML/Ubat/Levetiracetam1000.html">Levetiracetam 1000mg</option>
+          <option value="../HTML/Ubat/Madopar.html">Levodopa 200mg & Benserazide 50mg</option>
+          <option value="../HTML/Ubat/Sinemet100.html">Levodopa 100mg & Carbidopa 25mg</option>
+          <option value="../HTML/Ubat/Sinemet250.html">Levodopa 250mg & Carbidopa 25mg</option>
+          <option value="../HTML/Ubat/Ethinylestradiol.html">Levonorgestrel 0.15mg & Ethinylestradiol 0.03mg</option>
+          <option value="../HTML/Ubat/Levothyroxine25.html">Levothyroxine 25mcg</option>
+          <option value="../HTML/Ubat/Levothyroxine50.html">Levothyroxine 50mcg</option>
+          <option value="../HTML/Ubat/Levothyroxine100.html">Levothyroxine 100mcg</option>
+          <option value="../HTML/Ubat/Loratadine.html">Loratadine 10mg</option>
+          <option value="../HTML/Ubat/LoratadinePseudo.html">Loratadine 5mg & Pseudoephedrine 120mg</option>
+        <option value="../HTML/Ubat/Lorazepam.html">Lorazepam 1mg</option>
+          <option value="../HTML/Ubat/Lovastatin.html">Lovastatin 20mg</option>
+          <option value="../HTML/Ubat/Riamet.html">Lumefantrine 120mg & Artemether 20mg</option>
+          <option value="../HTML/Ubat/Magnesiumtri.html">Magnesium Trisilicate</option>
+          <option value="../HTML/Ubat/Meclozine.html">Meclozine 25mg & Pyridoxine 50mg</option>
+          <option value="../HTML/Ubat/Mecobalamin.html">Mecobalamin 500mcg</option>
+          <option value="../HTML/Ubat/Medroxyprogesterone.html">Medroxyprogesterone 5mg</option>
+          <option value="../HTML/Ubat/Mefenamic.html">Mefenamic acid 250mg</option>
+          <option value="../HTML/Ubat/Meloxicam.html">Meloxicam 7.5mg</option>
+          <option value="../HTML/Ubat/Metformin.html">Metformin 500mg</option>
+          <option value="../HTML/Ubat/MetforminER.html">Metformin ER 500mg</option>
+          <option value="../HTML/Ubat/MetforminGliben.html">Metformin 500mg & Glibenclamide 5mg</option>
+          <option value="../HTML/Ubat/Methotrexate.html">Methotrexate 2.5mg</option>
+          <option value="../HTML/Ubat/Methyldopa.html">Methyldopa 250mg</option>
+        <option value="../HTML/Ubat/Methylphenidate.html">Methylphenidate 10mg</option>
+          <option value="../HTML/Ubat/Metoclopramide.html">Metoclopramide 10mg</option>
+          <option value="../HTML/Ubat/Metoprolol.html">Metoprolol 100mg</option>
+          <option value="../HTML/Ubat/Metronidazole.html">Metronidazole 200mg</option>
+          <option value="../HTML/Ubat/Montelukast5.html">Montelukast 5mg</option>
+          <option value="../HTML/Ubat/Montelukast10.html">Montelukast 10mg</option>
+          <option value="../HTML/Ubat/Multivitamin.html">Multivitamin</option>
+          <option value="../HTML/Ubat/Nifedipine.html">Nifedipine 10mg</option>
+        <option value="../HTML/Ubat/Nitrofurantoin.html">Nitrofurantoin 100mg</option>
+          <option value="../HTML/Ubat/Estradiol2.html">Norgestrel 0.5mg & Estradiol 2mg</option>
+          <option value="../HTML/Ubat/Olanzapine5.html">Olanzapine 5mg</option>
+          <option value="../HTML/Ubat/Olanzapine10.html">Olanzapine 10mg</option>
+          <option value="../HTML/Ubat/Omeprazole.html">Omeprazole 20mg</option>
+          <option value="../HTML/Ubat/Oseltamivir.html">Oseltamivir 75mg</option>
+          <option value="../HTML/Ubat/Pantoprazole.html">Pantoprazole 40mg</option>
+          <option value="../HTML/Ubat/Paracetamol.html">Paracetamol 500mg</option>
+          <option value="../HTML/Ubat/Pentoxifylline.html">Pentoxyfylline 400mg</option>
+          <option value="../HTML/Ubat/Perindopril4.html">Perindopril 4mg</option>
+          <option value="../HTML/Ubat/Perindopril8.html">Perindopril 8mg</option>
+          <option value="../HTML/Ubat/PerindoprilPlus.html">Perindopril 4mg & Indapamide 1.25mg</option>
+          <option value="../HTML/Ubat/Penicillin.html">Penicillin V 125mg</option>
+        <option value="../HTML/Ubat/Phenobarbitone.html">Phenobarbitone 30mg</option>
+          <option value="../HTML/Ubat/Penicillin.html">Phenoxymethyl Penicillin 125mg</option>
+          <option value="../HTML/Ubat/Phenytoin30.html">Phenytoin 30mg</option>
+          <option value="../HTML/Ubat/Phenytoin100.html">Phenytoin 100mg</option>
+          <option value="../HTML/Ubat/Piracetam800.html">Piracetam 800mg</option>
+          <option value="../HTML/Ubat/Piracetam1200.html">Piracetam 1200mg</option>
+          <option value="../HTML/Ubat/Pizotifen.html">Pizotifen 0.5mg</option>
+          <option value="../HTML/Ubat/Potassium.html">Potassium Chloride SR 600mg</option>
+          <option value="../HTML/Ubat/Pravastatin.html">Pravastatin 20mg</option>
+          <option value="../HTML/Ubat/Prazosin1.html">Prazosin 1mg</option>
+          <option value="../HTML/Ubat/Prazosin2.html">Prazosin 2mg</option>
+          <option value="../HTML/Ubat/Prazosin5.html">Prazosin 5mg</option>
+          <option value="../HTML/Ubat/Prednisolone.html">Prednisolone 5mg</option>
+          <option value="../HTML/Ubat/Pregabalin.html">Pregabalin 75mg</option>
+          <option value="../HTML/Ubat/Primaquine.html">Primaquine 7.5mg</option>
+          <option value="../HTML/Ubat/Prochlorperazine.html">Prochlorperazine 5mg</option>
+          <option value="../HTML/Ubat/Prolase.html">Prolase</option>
+          <option value="../HTML/Ubat/Propranolol.html">Propranolol 40mg</option>
+          <option value="../HTML/Ubat/Propylthiouracil.html">Propylthiouracil 50mg</option>
+          <option value="../HTML/Ubat/Actifed.html">Pseudoephedrine 60mg & Triprolidine 2.5mg</option>
+          <option value="../HTML/Ubat/LoratadinePseudo.html">Pseudoephedrine 120mg & Loratadine 5mg</option>
+          <option value="../HTML/Ubat/Pyrazinamide.html">Pyrazinamide 500mg</option>
+          <option value="../HTML/Ubat/Akurit.html">Pyrazinamide 400mg, Rifampicin 150mg, Isoniazid 75mg & Ethambutol 275mg</option>
+          <option value="../HTML/Ubat/Pyridostigmine.html">Pyridostigmine 60mg</option>
+          <option value="../HTML/Ubat/Pyridoxine.html">Pyridoxine 10mg</option>
+          <option value="../HTML/Ubat/Meclozine.html">Pyridoxine 50mg & Meclozine 25mg</option>
+          <option value="../HTML/Ubat/Fansidar.html">Pyrimethamine 25mg & Sulfadoxine 500mg</option>
+          <option value="../HTML/Ubat/Quetiapine50.html">Quetiapine XR 50mg</option>
+          <option value="../HTML/Ubat/Quetiapine200.html">Quetiapine XR 200mg</option>
+          <option value="../HTML/Ubat/Quetiapine400.html">Quetiapine XR 400mg</option>
+          <option value="../HTML/Ubat/Quinine.html">Quinine 300mg</option>
+          <option value="../HTML/Ubat/Ramipril2,5.html">Ramipril 2.5mg</option>
+          <option value="../HTML/Ubat/Ramipril5.html">Ramipril 5mg</option>
+          <option value="../HTML/Ubat/Ranitidine.html">Ranitidine 150mg</option>
+          <option value="../HTML/Ubat/Rifampicin150.html">Rifampicin 150mg</option>
+          <option value="../HTML/Ubat/Rifampicin300.html">Rifampicin 300mg</option>
+          <option value="../HTML/Ubat/Akurit.html">Rifampicin 150mg, Isoniazid 75mg, Pyrazinamide 400mg & Ethambutol 275mg</option>
+          <option value="../HTML/Ubat/Risperidone1.html">Risperidone 1mg</option>
+          <option value="../HTML/Ubat/Risperidone2.html">Risperidone 2mg</option>
+          <option value="../HTML/Ubat/Rivastigmine1,5.html">Rivastigmine 1.5mg</option>
+          <option value="../HTML/Ubat/Rivastigmine3.html">Rivastigmine 3mg</option>
+          <option value="../HTML/Ubat/Salbutamol.html">Salbutamol 2mg</option>
+          <option value="../HTML/Ubat/Selegiline.html">Selegiline 5mg</option>
+          <option value="../HTML/Ubat/Sertraline.html">Sertraline 50mg</option>
+          <option value="../HTML/Ubat/Simvastatin20.html">Simvastatin 20mg</option>
+          <option value="../HTML/Ubat/Simvastatin40.html">Simvastatin 40mg</option>
+          <option value="../HTML/Ubat/Sitagliptin.html">Sitagliptin 100mg</option>
+          <option value="../HTML/Ubat/Sodiumvalproate.html">Sodium Valproate 200mg</option>
+          <option value="../HTML/Ubat/Sotalol.html">Sotalol 80mg</option>
+          <option value="../HTML/Ubat/Spironolactone.html">Spironolactone 25mg</option>
+        <option value="../HTML/Ubat/Sucralfate.html">Sucralfate 1g</option>
+          <option value="../HTML/Ubat/Unasyn.html">Sulbactam & Ampicillin 375mg</option>
+          <option value="../HTML/Ubat/Fansidar.html">Sulfadoxine 500mg & Pyrimethamine 25mg</option>
+          <option value="../HTML/Ubat/Bactrim.html">Sulfamethoxazole 400mg & Trimethoprim 80mg</option>
+          <option value="../HTML/Ubat/Sulphasalazine.html">Sulphasalazine 500mg</option>
+          <option value="../HTML/Ubat/Sulpiride.html">Sulpiride 200mg</option>
+          <option value="../HTML/Ubat/Tamoxifen.html">Tamoxifen 20mg</option>
+          <option value="../HTML/Ubat/Duodart.html">Tamsulosin 0.4mg & Dutasteride 0.5mg</option>
+          <option value="../HTML/Ubat/Telmisartan40.html">Telmisartan 40mg</option>
+          <option value="../HTML/Ubat/Telmisartan80.html">Telmisartan 80mg</option>
+          <option value="../HTML/Ubat/TelmisartanAmlo.html">Telmisartan 80mg & Amlodipine 10mg</option>
+          <option value="../HTML/Ubat/TelmisartanPlus.html">Telmisartan 80mg & Hydrochlorothiazide 12.5mg</option>
+          <option value="../HTML/Ubat/Terazosin2.html">Terazosin 2mg</option>
+          <option value="../HTML/Ubat/Terazosin5.html">Terazosin 5mg</option>
+          <option value="../HTML/Ubat/Theophylline.html">Theophylline 125mg</option>
+          <option value="../HTML/Ubat/TheophyllineSR.html">Theophylline SR 250mg</option>
+          <option value="../HTML/Ubat/Thiamine.html">Thiamine 10mg</option>
+          <option value="../HTML/Ubat/Ticlopidine.html">Ticlopidine 250mg</option>
+          <option value="../HTML/Ubat/Tolterodine.html">Tolterodine 2mg</option>
+          <option value="../HTML/Ubat/Topiramate50.html">Topiramate 50mg</option>
+          <option value="../HTML/Ubat/Topiramate100.html">Topiramate 100mg</option>
+          <option value="../HTML/Ubat/Tramadol.html">Tramadol 50mg</option>
+          <option value="../HTML/Ubat/Tranexamic.html">Tranexamic acid 250mg</option>
+          <option value="../HTML/Ubat/Trifluoperazine.html">Trifluoperazine 5mg</option>
+          <option value="../HTML/Ubat/Trimetazidine.html">Trimetazidine 20mg</option>
+          <option value="../HTML/Ubat/Bactrim.html">Trimethoprim 80mg & Sulfamethoxazole 400mg</option>
+          <option value="../HTML/Ubat/Actifed.html">Triprolidine 2.5mg & Pseudoephedrine 60mg</option>
+          <option value="../HTML/Ubat/Sodiumvalproate.html">Valproic Acid 200mg</option>
+          <option value="../HTML/Ubat/Valsartan.html">Valsartan 80mg</option>
+          <option value="../HTML/Ubat/ValsartanAmlo.html">Valsartan 160mg & Amlodipine 10mg</option>
+          <option value="../HTML/Ubat/Verapamil.html">Verapamil 40mg</option>
+          <option value="../HTML/Ubat/VitaminBco.html">Vitamin B Complex</option>
+          <option value="../HTML/Ubat/VitaminB1612.html">Vitamin B1, B6, B12</option>
+          <option value="../HTML/Ubat/Warfarin1.html">Warfarin 1mg</option>
+          <option value="../HTML/Ubat/Warfarin2.html">Warfarin 2mg</option>
+          <option value="../HTML/Ubat/Warfarin5.html">Warfarin 5mg</option>
+        <option value="../HTML/Ubat/Zolpidem.html">Zolpidem 10mg</option>
+        </select>
+      </p>
+      <h2>@</p>
+      </h2>
+      <p>Sila pilih ubat mengikut kategori ubat:
+        <select name="jumpMenu2" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,0)">
+           <option value="../HTML/Kategori ubat/Blank"></option>
+          <option value="../HTML/Kategori ubat/Antibiotik.html">Antibiotik</option>
+          <option value="../HTML/Kategori ubat/Anti-malaria.html">Anti-malaria</option>
+          <option value="../HTML/Kategori ubat/Asma.html">Asma</option>
+          <option value="../HTML/Kategori ubat/Batuk kering TB.html">Batuk kering TB</option>
+          <option value="../HTML/Kategori ubat/Cair darah.html">Cair darah</option>
+          <option value="../HTML/Kategori ubat/Darah tinggi.html">Darah tinggi</option>
+          <option value="../HTML/Kategori ubat/Gastrik.html">Gastrik</option>
+          <option value="../HTML/Kategori ubat/Gout.html">Gout</option>
+          <option value="../HTML/Kategori ubat/Jantung.html">Jantung</option>
+          <option value="../HTML/Kategori ubat/Kencing manis.html">Kencing manis</option>
+          <option value="../HTML/Kategori ubat/Kolesterol.html">Kolesterol</option>
+          <option value="../HTML/Kategori ubat/Mental.html">Mental</option>
+          <option value="../HTML/Kategori ubat/Parkinson.html">Parkinson</option>
+          <option value="../HTML/Kategori ubat/Prostat.html">Prostat</option>
+          <option value="../HTML/Kategori ubat/Sawan.html">Sawan</option>
+          <option value="../HTML/Kategori ubat/Tahan Sakit.html">Tahan Sakit & Otot</option>
+          <option value="../HTML/Kategori ubat/Tiroid.html">Tiroid</option>
+          <option value="../HTML/Kategori ubat/Vitamin & Suplemen.html">Vitamin & Suplemen</option>
+       </select>
+    </p>
+    </form>
+    </center></blockquote>
+    <hr class="single-divider">  
+<center><img src="../Images/Others/Medications.jpg" width="85%" /></center>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script><!-- InstanceEndEditable -->
+<div class="footer">
+    <p><a href="../index.html">Laman utama</a> | <a href="Hubungi.html">Mengenai kami</a> | <a href="Ubat.html">Ubat-ubatan</a> | <a href="Kaunseling.html">Kaunseling</a> | <a href="Penyakit.html">Penyakit</a> | <a href="Links.html">Pautan luar</a></p>
+    <p>Copyright &copy; 2017 i-Med Farmasi Hospital Kuala Lipis</p>
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+<!-- InstanceEnd --></html>
