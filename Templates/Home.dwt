@@ -206,6 +206,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 <!-- TemplateEndEditable -->
 <div class="footer">
     <p><a href="../index.html">Laman utama</a> | <a href="../HTML/Hubungi.html">Mengenai kami</a> | <a href="../HTML/Ubat.html">Ubat-ubatan</a> | <a href="../HTML/Kaunseling.html">Kaunseling</a> | <a href="../HTML/Penyakit.html">Penyakit</a> | <a href="../HTML/Links.html">Pautan luar</a></p>
+    <p style="font-size: x-small"><i><b>Penafian:</b> Tapak laman web ini direka bentuk untuk memberi maklumat ubat sahaja dan tidak menggantikan nasihat, diagnosis atau rawatan perubatan profesional. Sentiasa dapatkan nasihat pegawai perubatan yang berkelayakan mengenai keadaan kesihatan anda atau pegawai farmasi anda. Jangan abaikan nasihat golongan profesional kesihatan atau bertangguh dalam mendapatkan nasihat disebabkan sesuatu yang telah anda baca dalam laman web ini.</i></p> 
     <p>Copyright &copy; 2018 i-Med Jabatan Farmasi Hospital Kuala Lipis</p>
     <!-- end .footer --></div>
 <!-- end .container --></div>
